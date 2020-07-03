@@ -1,6 +1,6 @@
-# Plugin - Apache Atlas
+# Airflow Plugin - Apache Atlas
 
-This plugin is used to create typeDefs, entites, entity instances in Apache Atlas. The pligin also has support for searching capabilities of Apache Atlas.
+This Apache Airflow plugin is used to create typeDefs, entites, entity instances in Apache Atlas. The plugin also has support for searching capabilities of Apache Atlas.
 
 ## Creating a connection to Apache Atlas
 To create a connection with Atlas using the Airflow UI you need to open the interface > Admin dropdown menu > click on "connections" > create. Create an HTTP connection with the name "atlas_default". Put in the URL of your Apache Atlas instance, port, username and password.
